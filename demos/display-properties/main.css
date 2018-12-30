@@ -37,6 +37,92 @@ span {
 } */
 
 /* 
+==========================
+display: flex demo styles
+==========================
+*/
+.flex-container {
+  background-color: mediumseagreen;
+  display: flex;
+}
+
+.flex-container .item {
+  background-color: lightseagreen;
+  padding: 10px;
+  text-align: center;
+}
+
+/* (1.) uncomment the following rule */
+/* .flex-container {
+  justify-content: flex-start;
+} */
+
+/* (2.) uncomment the following rule */
+/* .flex-container {
+  justify-content: flex-end;
+} */
+
+/* (3.) uncomment the following rule */
+/* .flex-container {
+  justify-content: center;
+} */
+
+/* (4.) uncomment the following rule */
+/* .flex-container {
+  justify-content: space-around;
+} */
+
+/* (5.) uncomment the following rule */
+/* .flex-container {
+  justify-content: space-between;
+} */
+
+/* (6.) uncomment the following rule */
+/* .flex-container {
+  justify-content: space-evenly;
+} */
+
+/* (7.) uncomment the following rule */
+/* .flex-container {
+  align-items: stretch;
+} */
+
+/* (8.) uncomment the following rule */
+/* .flex-container {
+  align-items: flex-start;
+} */
+
+/* (9.) uncomment the following rule */
+/* .flex-container {
+  align-items: flex-end;
+} */
+
+/* (10.) uncomment the following rule */
+/* .flex-container {
+  align-items: center;
+} */
+
+/* (11.) uncomment the following rule */
+/* .flex-container {
+  flex-direction: row;
+} */
+
+/* (12.) uncomment the following rule */
+/* .flex-container {
+  flex-direction: column;
+} */
+
+/* (13.) uncomment the following rule */
+/* .flex-container {
+  flex-direction: row-reverse;
+} */
+
+/* (14.) uncomment the following rule */
+/* .flex-container {
+  flex-direction: column-reverse;
+} */
+
+/* 
 ==================
 additional styles
 ==================
