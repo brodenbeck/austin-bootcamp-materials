@@ -1,0 +1,60 @@
+/* 
+====================
+display demo styles
+====================
+*/
+
+/*** by default, the div element is block ***/
+div {
+  background-color: darksalmon;
+}
+
+/*** by default, the span element is inline ***/
+span {
+  background-color: khaki;
+}
+
+/*** by default, the img element is inline ***/
+
+/* (1.) uncomment the following rule */
+/* span {
+  display: block;
+} */
+
+/* (2.) uncomment the following rule */
+/* img {
+  display: block;
+} */
+
+/* (3.) uncomment the following rule */
+/* div {
+  display: inline;
+} */
+
+/* (4.) uncomment the following rule */
+/* div {
+  display: inline-block;
+} */
+
+/* 
+==================
+additional styles
+==================
+*/
+* {
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+}
+
+.outline * {
+  border: 1px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin-left: 20px;
+}
