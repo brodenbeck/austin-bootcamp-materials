@@ -1,0 +1,52 @@
+/* 
+ ======================
+ box model demo styles
+ ======================
+*/
+.box {
+  width: 500px;
+  height: 300px;
+  padding: 80px;
+  margin: 30px;
+  border: 3px solid white;
+}
+
+/* 
+ * Total width: 500px + (2 * 80px) + (2 * 30px) = 720px
+ * Total height: 300px + (2 * 80px) + (2 * 30px) = 520px
+ * Content width: 500px
+ * Content height: 300px
+*/
+.content-box {
+  /* This is the default, but just to be explicit */
+  box-sizing: content-box;
+}
+
+/* 
+ * Total width: 500px
+ * Total height: 300px
+ * Content width: 500px - (2 * 80px) - (2 * 30px) = 720px
+ * Content height: 300px - (2 * 80px) - (2 * 30px) = 520px
+*/
+.border-box {
+  box-sizing: border-box;
+}
+
+/* 
+ ======================
+ additional demo styles
+ ======================
+*/
+.outer-box {
+  display: inline-block;
+  background-color: indianred;
+}
+
+.box {
+  color: white;
+  font-size: 22px;
+  font-family: 'Verdana', sans-serif;
+  background-color: gray;
+  float: left;
+  letter-spacing: 0.8px;
+}
