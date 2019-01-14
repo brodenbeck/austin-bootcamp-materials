@@ -1,0 +1,61 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 120px;
+}
+
+div {
+  width: 50%;
+  height: 80px;
+  background: lightgreen;
+  border: 1px solid darkgreen;
+}
+
+div.container {
+  width: 98%;
+  margin: 30px auto;
+  height: 400px;
+  background: none;
+  border: 3px solid gray;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+div.container.relative {
+  top: 0;
+  left: 0;
+}
+
+div.container.absolute {
+  top: 860px;
+  left: 1%;
+}
+
+div.container.fixed {
+  bottom: 30px;
+  left: 1%;
+}
