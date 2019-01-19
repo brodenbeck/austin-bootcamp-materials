@@ -22,7 +22,7 @@
 ```
 
 ## Headings
-1. Add a heading to the paragraph below with the text "Tokyo"
+3. Add a heading to the paragraph below with the text "Tokyo"
 ```html
 <!DOCTYPE html>
 <html>
@@ -32,7 +32,7 @@
 </html>
 ```
 
-2. Add six headings to the document with the text "Hello, world". Start with the most important heading and end with the least important heading.
+4. Add six headings to the document with the text "Hello, world". Start with the most important heading and end with the least important heading.
 ```html
 <!DOCTYPE html>
 <html>
@@ -41,7 +41,7 @@
 </html>
 ```
 
-3. Mark up the following
+5. Mark up the following
 ```html
 <!DOCTYPE html>
 <html>
@@ -58,7 +58,7 @@
 ```
 
 ## Paragraphs
-1. Add a paragraph to the document with the text "Hello, world".
+6. Add a paragraph to the document with the text "Hello, world".
 ```html
 <!DOCTYPE html>
 <html>
@@ -67,7 +67,7 @@
 </html>
 ```
 
-2. Clean up this document with the proper closing tags.
+7. Clean up this document with the proper closing tags.
 ```html
 <!DOCTYPE html>
 <html>
@@ -82,7 +82,7 @@
 ```
 
 ## Formatting
-1. Add extra importance to the word "most" in the paragraph below.
+8. Add extra importance to the word "most" in the paragraph below.
 ```html
 <!DOCTYPE html>
 <html>
@@ -93,7 +93,7 @@
 </html>
 ```
 
-2. Emphasize the word "Kantō" in the text below.
+9. Emphasize the word "Kantō" in the text below.
 ```html
 <!DOCTYPE html>
 <html>
@@ -104,7 +104,7 @@
 </html>
 ```
 
-3. Highlight the word "Edo" below.
+10. Highlight the word "Edo" below.
 ```html
 <!DOCTYPE html>
 <html>
@@ -115,7 +115,7 @@
 </html>
 ```
 
-4. Apply subscript formatting to the number "2" in the text below.
+11. Apply subscript formatting to the number "2" in the text below.
 ```html
 <!DOCTYPE html>
 <html>
@@ -125,7 +125,7 @@
 </html>
 ```
 
-5. Add a line through the number "1869" in the text below.
+12. Add a line through the number "1869" in the text below.
 ```html
 <!DOCTYPE html>
 <html>
@@ -137,7 +137,7 @@
 ```
 
 ## Quotations
-1. The text below should be a quoted section. Add the proper HTML element to it, and specify that it is quoted from the following URL: `https://en.wikipedia.org/wiki/Tokyo`
+13. The text below should be a quoted section. Add the proper HTML element to it, and specify that it is quoted from the following URL: `https://en.wikipedia.org/wiki/Tokyo`
 ```html
 <html>
   <body>
@@ -146,7 +146,7 @@
 </html>
 ```
 
-2. The letters "IFC" in the text below are an abbreviation of "International Financial Center." Use an HTML element to provide the specified abbreviation of "IFC."
+14. The letters "IFC" in the text below are an abbreviation of "International Financial Center." Use an HTML element to provide the specified abbreviation of "IFC."
 ```html
 <html>
   <body>
@@ -156,7 +156,7 @@
 ```
 
 ## Comments
-1. Remove the comment tags around the `<p>` element.
+15. Remove the comment tags around the `<p>` element.
 ```html
 <html>
   <body>
@@ -165,7 +165,7 @@
 </html>
 ```
 
-2. Add comment tags around the "Do not display this text in the browser" text.
+16. Add comment tags around the "Do not display this text in the browser" text.
 ```html
 <!DOCTYPE html>
 <html>
@@ -178,7 +178,7 @@
 ```
 
 ## Links
-1. Change the link below to be a local, or relative, link.
+17. Change the link below to be a local, or relative, link.
 ```html
 <!DOCTYPE html>
 <html>
@@ -188,7 +188,7 @@
 </html>
 ```
 
-2. Change the link below to open in a new window.
+18. Change the link below to open in a new window.
 ```html
 <!DOCTYPE html>
 <html>
@@ -198,7 +198,7 @@
 </html>
 ```
 
-3. Add a link to the image below, and make it go to `https://github.com/akandt` in a new window when you click on it.
+19. Add a link to the image below, and make it go to `https://github.com/akandt` in a new window when you click on it.
 ```html
 <!DOCTYPE html>
 <html>
@@ -209,7 +209,7 @@
 ```
 
 ## Lists
-1. Add a list item with the text "Tea" to the unordered list.
+20. Add a list item with the text "Tea" to the unordered list.
 ```html
 <!DOCTYPE html>
 <html>
@@ -221,7 +221,7 @@
 </html>
 ```
 
-2. Change the list below to an ordered list.
+21. Change the list below to an ordered list.
 ```html
 <!DOCTYPE html>
 <html>
@@ -237,7 +237,7 @@
 ```
 
 ## Classes
-1. Add the "navigation--main" class to the `<nav>` element.
+22. Add the "navigation--main" class to the `<nav>` element.
 ```html
 <!DOCTYPE html>
 <html>
@@ -254,7 +254,7 @@
 </html>
 ```
 
-2. Add the "navigation__item" and "u-text-center" classes to each list item.
+23. Add the "navigation__item" and "u-text-center" classes to each list item.
 ```html
 <!DOCTYPE html>
 <html>
@@ -272,7 +272,7 @@
 ```
 
 ## HTML5
-1. Modify the below page to utilize HTML5 semantic markup.
+24. Modify the below page to utilize HTML5 semantic markup.
 ```html
 <!DOCTYPE html>
 <html>
