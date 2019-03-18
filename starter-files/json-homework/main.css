@@ -1,0 +1,31 @@
+body {
+  padding: 40px;
+}
+
+.Library {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.Card {
+  width: 100%;
+  box-shadow: 0 0 4px 0 #aaaaaa;
+  padding: 20px;
+}
+
+.Card__title {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .Card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Card {
+    width: calc((100% - 40px) / 3);
+  }
+}
