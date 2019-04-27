@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Event Handling</title>
+</head>
+<body>
+  <div id="root">
+    <!-- Instead of referencing the form and input by ID, we can bind JavaScript code to the DOM where it is needed -->
+    <form v-on:submit.prevent="addName">
+      <!-- Remember: the v-model directive binds input data to your Vue instance and the DOM -->
+      <input type="text" v-model="newName">
+      <button>Add name</button>
+    </form>
+    <ul>
+      <li v-for="name in names">{{ name }}</li>
+    </ul>
+  </div>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
