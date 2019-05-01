@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Computed Properties</title>
+</head>
+<body>
+  <div id="root">
+    <p>{{ message.split('').reverse().join('') }}</p>
+    <!-- <p>{{ reversedMessage }}</p> -->
+  </div>
+
+  <!-- <div id="root2">
+    <button @click="viewingAll = !viewingAll">
+      <span v-if="viewingAll">See incomplete tasks only</span>
+      <span v-else>See all tasks</span>
+    </button>
+    <ul>
+      <li v-for="task in tasksForDisplay">{{ task.description }}</li>
+    </ul> -->
+  </div>
+
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
